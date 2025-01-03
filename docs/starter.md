@@ -24,4 +24,17 @@ docker pull ros:jazzy-ros-base-noble
 ```
 
 
+### 图形界面
 
+
+#### macOS
+
+Install Xquartz to get X11 support on MacOS. You can and download Xquartz from its [official site](https://www.xquartz.org), or install using HomeBrew.
+
+```bash
+# macOS安装xquartz
+brew install xquartz --cask
+
+# 启动xquartz，实测`Allow connections from clients`选项非必须条件
+Run Applications > Utilities > XQuartz.app
+```
